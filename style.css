@@ -1,0 +1,44 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(
+        90deg,
+        rgba(2,0,36,1) 0%,
+        rgba(9,9,121,1) 35%,rgba(0,212,255,1) 100%);
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.calculadora{
+    margin: auto;
+}
+
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    padding: 40px;
+    margin: auto;
+}
+
+.display{
+    width: 99%;
+    height: 50px;
+    text-align: right;
+    font-size: 40px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    background-color: #dfdfdf;
+
+}
+.btn:hover{
+    background-color: #c8c8c8;
+}
